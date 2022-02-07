@@ -1,0 +1,26 @@
+/** --- Import mixin -------------------------------------- */
+@import "@/scss/_mixin.scss";
+
+// Base colors
+$g-color-gray: #44535E;
+$g-color-light-gray: #E3E3E3;
+$g-color-white: #fcfcfc;
+
+// Font
+$g-font-style-default: "Noto Sans JP";
+
+// FontColor
+$g-font-color-white: $g-color-white;
+$g-font-color-gray: $g-color-gray;
+
+// Font size
+$g-font-size-large: 32px;
+$g-font-size-middle: 24px;
+$g-font-size-small: 16px;
+$g-font-size-very-small: 10px;
+
+// Global style
+.g_view_title{
+    font-size: $g-font-size-large;
+    text-decoration-line: underline;
+}

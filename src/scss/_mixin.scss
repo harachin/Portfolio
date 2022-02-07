@@ -1,0 +1,25 @@
+/** Breakpoints */
+$pc: 1080px;    // pc
+$tab: 768px;    // tablet
+$sp: 480px;     // smart phone
+
+/** For pc device */
+@mixin pc {
+  @media screen and (min-width: ($pc)) {
+    @content;
+  }
+}
+
+/** For pc tablet device */
+@mixin tab {
+  @media screen and (max-width: ($tab)) {
+    @content;
+  }
+}
+
+/** For pc smart phone device */
+@mixin sp {
+  @media screen and (max-width: ($sp)) {
+    @content;
+  }
+}
