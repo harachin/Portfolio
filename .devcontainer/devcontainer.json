@@ -1,0 +1,34 @@
+{
+  "name": "portfolio-devcontainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/app",
+  "remoteUser": "root",
+  "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+  "settings": {
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "Vue.volar",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "steoates.autoimport",
+        "dariofuzinato.vue-peek",
+        "Vue.vscode-typescript-vue-plugin",
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+env:
+  node: true
+  es2020: true
+parser: vue-eslint-parser
+parserOptions:
+  parser: '@typescript-eslint/parser'
+  sourceType: module
+  ecmaVersion: 2020
+plugins:
+  - vue
+  - '@typescript-eslint'
+extends:
+  - eslint:recommended
+  - plugin:vue/vue3-recommended
+  - prettier
+rules:
+  vue/html-self-closing: 'off'
+  no-unused-vars: 'off'
+  '@typescript-eslint/no-unused-vars':
+    - error
+  max-len:
+    - 2
+    - 100
+    - 4
+    - ignoreUrls: true
+      ignorePattern: ""
+  "vue/html-closing-bracket-newline":
+    - 2
+    - multiline: never

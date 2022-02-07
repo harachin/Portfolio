@@ -1,0 +1,7 @@
+
+@use "@/scss/_variables.scss" as variables;
+
+.g-view-title {
+  font-size: variables.$g-font-size-large;
+  text-decoration-line: underline;
+}
