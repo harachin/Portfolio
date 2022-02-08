@@ -52,21 +52,21 @@ export default class Works extends Vue {
   workInformations: Array<WorkInformation> = [
     {
       category: WorkCategory.GAME,
-      name: "aaaaaaa",
-      desc: "説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明",
-      icon: require("@/assets/harachinlab_logo_text_pattern1.png"),
+      name: "DROID I",
+      desc: "学生時代、文化祭にて一般公開用に開発した対戦型2Dシューティングゲームです。",
+      icon: require("@/assets/work_screenshot_droid_i_1.png"),
     },
     {
       category: WorkCategory.GAME,
-      name: "bbbbbbb",
-      desc: "説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明",
-      icon: require("@/assets/harachinlab_logo_text_pattern1.png"),
+      name: "DROID II",
+      desc: "卒業制作にて開発した縦型スクロールシューティングゲームです。敵を撃破する毎に経験値を獲得することができシールドやボムなどの追加装備を獲得できる。",
+      icon: require("@/assets/work_screenshot_droid_ii_1.png"),
     },
     {
       category: WorkCategory.WEB_SERVICE,
-      name: "cccccccc",
-      desc: "説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明説明",
-      icon: require("@/assets/harachinlab_logo_text_pattern1.png"),
+      name: "Harachin.lab",
+      desc: "エンジニアHarachinのポートフォリオサイトです。",
+      icon: require("@/assets/work_screenshot_harachinlab_1.png"),
     },
   ];
 

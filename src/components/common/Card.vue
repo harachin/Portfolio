@@ -76,14 +76,14 @@ export default class Card extends Vue {
   .name {
     margin: 5px;
     height: 10%;
-    font-size: $g-font-size-large;
+    font-size: $g-font-size-middle;
     font-weight: bold;
   }
 
   .desc {
     height: 30%;
     margin: 5px;
-    font-size: $g-font-size-middle;
+    font-size: $g-font-size-small;
   }
 }
 .card:hover {
