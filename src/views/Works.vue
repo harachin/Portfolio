@@ -89,6 +89,10 @@ export default class Works extends Vue {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  @include sp {
+    flex-direction: column;
+    align-items: center;
+  }
   gap: 20px;
 }
 </style>

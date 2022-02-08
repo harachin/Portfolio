@@ -40,8 +40,8 @@ export default class Card extends Vue {
 .card {
   display: flex;
   flex-direction: column;
-  height: 480px;
-  width: 360px;
+  width: 288px;
+  height: 432px;
   border: 2px solid $g-font-color-gray;
   border-radius: 5px;
   padding: 10px;
@@ -56,9 +56,8 @@ export default class Card extends Vue {
 
   .preview {
     position: relative;
-    border: 2px solid $g-font-color-gray;
-    border-radius: 5px;
-    height: 60%;
+    width: 256px;
+    height: 144px;
     img {
       position: absolute;
       top: 0;
@@ -70,6 +69,8 @@ export default class Card extends Vue {
       max-width: 100%;
       max-height: 100%;
       margin: auto;
+      border: 2px solid $g-font-color-gray;
+      border-radius: 5px;
     }
   }
 
