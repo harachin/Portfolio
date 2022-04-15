@@ -17,11 +17,11 @@ import { Options, Vue } from "vue-class-component";
 export default class ProgressBar extends Vue {
   percentage!: number;
 
-  get isDisplay() {
+  get isDisplay(): boolean {
     return this.percentage !== 0;
   }
 
-  get styles() {
+  get styles(): { [key: string]: string } {
     return {
       "--percentage": this.percentage + "%",
     };

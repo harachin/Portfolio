@@ -75,8 +75,9 @@ export default class Works extends Vue {
       url: "https://github.com/harachin/Portfolio",
     },
   ];
-  onTapCard(url: string) {
+  onTapCard(url: string): void {
     window.open(url, "_blank");
+    return;
   }
 
   get games(): Array<WorkInformation> {

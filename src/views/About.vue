@@ -131,7 +131,7 @@ import moment from "moment";
 })
 export default class About extends Vue {
   birthday = "1994/01/27";
-  get age() {
+  get age(): number {
     return moment().diff(new Date(this.birthday), "years");
   }
 }
